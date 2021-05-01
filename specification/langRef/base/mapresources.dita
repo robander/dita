@@ -32,22 +32,8 @@
           <xmlatt>processing-role</xmlatt>, given below), <xref keyref="attributes-keys"
             ><xmlatt>keys</xmlatt></xref>, <xref keyref="attributes-keyref"
           ><xmlatt>keyref</xmlatt></xref>, and the attributes defined below.</p>
-          <dl>
-            <dlentry>
-              <dt id="attr-href"><xmlatt>href</xmlatt></dt>
-          <dd>Specifies the referenced resource. See <xref keyref="attributes-href"/> for detailed
-            information on supported values and processing implications.
-            <!--References to DITA content cannot be below the topic level: that is, you cannot reference individual elements inside a topic. -->References
-            to non-DITA content need to use the <xmlatt>format</xmlatt> attribute to identify the
-            kind of resource.</dd>
-            </dlentry>
-            <dlentry>
-              <dt id="attr-processing-role"><xmlatt>processing-role</xmlatt></dt>
-          <dd>Specifies the role that the resource plays in processing. By default, this is set to
-              <keyword>resource-only</keyword>. Otherwise, the definition matches the one in <xref
-              keyref="attributes-common/commonmapatts"/>.</dd>
-            </dlentry>
-          </dl>
+      <p>On this element, <xmlatt>processing-role</xmlatt> has a default value of
+          <keyword>resource-only</keyword>.</p>
         </section>
         <example id="example" otherprops="examples">
           <title>Examples</title>
