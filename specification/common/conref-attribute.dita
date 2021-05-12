@@ -759,6 +759,15 @@ below. This element also uses <xmlatt>type</xmlatt>, <xmlatt>scope</xmlatt>, and
                                         </dlentry>
                                 </dl>
                         </sectiondiv></section>
+                <section id="section_i4j_q1q_mpb">
+                        <title>Common to many data specializations</title>
+                        <!--Elements that only update data to require @name, default traslate to no-->
+                        <p id="require-name-translate-no">On this element:<ul id="ul_wjc_s1q_mpb">
+                                        <li><xmlatt>name</xmlatt> is required.</li>
+                                        <li><xmlatt>translate</xmlatt> has a default value of
+                                                  <keyword>no</keyword>.</li>
+                                </ul></p>
+                </section>
                 <section id="section-7"><title>Common to <xmlelement>step</xmlelement> and <xmlelement>substep</xmlelement></title><p>Universal attributes, with narrowed definition of <xmlatt>importance</xmlatt>.</p><sectiondiv id="step-and-substep">
                                 <p>The following attributes are available on this element: <xref
 keyref="attributes-universal"/> (with a narrowed definition of
