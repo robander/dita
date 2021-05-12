@@ -30,11 +30,16 @@
     HTML, this means that all topics (and topic specializations) in the target document are included
     in the reference. For the purpose of linking, the reference resolves to the first (or only)
     topic (or topic specialization) in the document.
-    <!--If the reference is from a topicref element or a topicref element
+     <!--If the reference is from a topicref element or a topicref element
 specialization, all topics (and topic specializations) in the document
 are referenced. If the reference is not from a topicref element or
 a topicref element specialization, the reference resolves to the first
-(or only) topic (or topic specialization) in the document.--></p>
+(or only) topic (or topic specialization) in the document.--><draft-comment author="robander"
+     >All topicref specializations redefined @href in their attribute list simply to state that
+     @format should be used when the target is non-DITA. Should that be listed here instead? See for
+     example: <xref
+      href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/langRef/base/defaultSubject.html#defaultSubject"
+      format="html" scope="external"/></draft-comment></p>
    <p>An <xmlatt>href</xmlatt> value that consists of a URI with a fragment identifier must have a
     DITA local identifier as the portion after the hash. A DITA local identifier consists of
       <codeph><varname>topicID</varname>/<varname>elementID</varname></codeph> for a subelement of a
