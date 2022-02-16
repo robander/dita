@@ -83,9 +83,11 @@
 &lt;topic id="footnotes">
   &lt;title>Shared topic...&lt;/title>
   &lt;body>
-    &lt;fn id="strunk">Elements of Style&lt;/fn>
-    &lt;fn id="DQTI">Developing Quality Technical Information, 2nd edition&lt;/fn>
-    &lt;!-- ... -->
+    &lt;bodydiv>
+      &lt;fn id="strunk">Elements of Style&lt;/fn>
+      &lt;fn id="DQTI">Developing Quality Technical Information, 2nd edition&lt;/fn>
+      &lt;!-- ... -->
+    &lt;/bodydiv>
   &lt;/body>
 &lt;/topic></codeblock>
         <p>To use those footnotes, authors conref them into the relevant topics:</p>
@@ -98,8 +100,9 @@
         <codeblock>&lt;topic id="evaluating-quality">
   &lt;title>Evaluating documentation quality&lt;/title>
   &lt;body>
-    &lt;!-- ... -->
-    &lt;fn conref="footnotes.dita#footnotes/DQTI" id="dqti"/>
+    &lt;bodydiv>
+      &lt;fn conref="footnotes.dita#footnotes/DQTI" id="dqti"/>
+    &lt;/bodydiv>
     &lt;!-- ... -->
     &lt;p>See the online resource&lt;xref="#./dqti" type="fn"/> for more 
        information about how to assess the quality of technical documentation ...&lt;/p>
